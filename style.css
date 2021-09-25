@@ -1,0 +1,72 @@
+body {
+    margin: 0 auto;
+}
+
+.game-board {
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+    justify-content: center;
+    border: solid 3px black;
+}
+
+.start-game {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-weight: 600;
+}
+
+.column-50 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.enemy-group {
+    display: flex;
+}
+
+.soldier {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-right: 50px;
+    max-width: 200px;
+}
+
+.enemy {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+    max-width: 200px;
+}
+
+.progress {
+    background: grey;
+    border: solid 3px black;
+}
+
+.progress-bar {
+    height: 24px;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button {
+    margin-bottom: 10px;
+}
+
+
+img {
+    max-width: 100%x;
+}

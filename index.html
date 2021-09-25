@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="game-board">
+        
+        <div class="start-game" id="runningGame">
+            New game
+        </div>
+        <button id="reset">RESET GAME</button>
+
+
+        <div class="enemy-group">
+
+            <div class="column-50">
+                <div class="soldier">
+                    <img src="soldier.jpg" alt="">
+                
+    
+                <div class="progress">
+                    <div class="progress-bar">
+                        100%
+                    </div>
+                </div> 
+
+                <button id="attackSoldier">ATTACK</button>
+                <button id="utilityAttack">UTILITY ATTACK</button>
+
+                </div>
+            </div>
+            <div class="column-50">
+                <div class="enemy">
+                    <img src="woldemort.jpg" alt="">
+
+                <div class="progress">
+                    <div class="progress-bar">
+                        100%
+                    </div>
+                </div>
+
+                <button id="attackEnemy">ATTACK</button>
+
+                </div>
+                
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html> 
